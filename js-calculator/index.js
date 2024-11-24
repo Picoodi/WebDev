@@ -20,3 +20,7 @@ function calculate(){
     }
 
 }
+
+function removelastobject(){
+    Display.value = Display.value.slice(0,-1)
+}
